@@ -1,434 +1,142 @@
-<!DOCTYPE html>
-<html>
-<main>
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!doctype html>
+<html lang="en">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apple</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-<!-- Latest compiled JavaScript -->
-<header>
-  <nav id="ac-globalnav" class="no-js" role="navigation">
-    <div class="ac-gn-content">
-      <ul class="ac-gn-list">
-        <li class="ac-gn-item ac-gn-apple">
-          <a class="ac-gn-link ac-gn-link-apple" href="/"> <span class="ac-gn-link-text">Apple</span> </a>
-        </li>
-        <li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
-          <a class="ac-gn-link ac-gn-link-mac" href="/mac/" data-analytics-title="mac"> <span class="ac-gn-link-text">Mac</span> </a>
-        </li>
-        <li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
-          <a class="ac-gn-link ac-gn-link-ipad" href="/ipad/" data-analytics-title="ipad"> <span class="ac-gn-link-text">iPad</span> </a>
-        </li>
-        <li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
-          <a class="ac-gn-link ac-gn-link-iphone" href="/iphone/" data-analytics-title="iphone"> <span class="ac-gn-link-text">iPhone</span> </a>
-        </li>
-        <li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
-          <a class="ac-gn-link ac-gn-link-watch" href="/watch/" data-analytics-title="watch"> <span class="ac-gn-link-text">Watch</span> </a>
-        </li>
-        <li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
-          <a class="ac-gn-link ac-gn-link-tv" href="/tv/" data-analytics-title="tv"> <span class="ac-gn-link-text">TV</span> </a>
-        </li>
-        <li class="ac-gn-item ac-gn-item-menu ac-gn-music">
-          <a class="ac-gn-link ac-gn-link-music" href="/music/" data-analytics-title="music"> <span class="ac-gn-link-text">Music</span> </a>
-        </li>
-        <li class="ac-gn-item ac-gn-item-menu ac-gn-support">
-          <a class="ac-gn-link ac-gn-link-support" href="/support/" data-analytics-title="support"> <span class="ac-gn-link-text">Support</span> </a>
-        </li>
-        <li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
-          <a class="ac-gn-link ac-gn-link-search" href="/us/search" data-analytics-title="search" data-analytics-click="search" aria-label="Search apple.com"> <span class="ac-gn-search-placeholder" aria-hidden="true">Search apple.com</span> </a>
-        </li>
-        <li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
-          <a class="ac-gn-link ac-gn-link-bag" href="/us/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with Items"> <span class="ac-gn-link-text">Shopping Bag</span> <span class="ac-gn-bag-badge" aria-hidden="true"></span> </a> <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span> </li>
-      </ul>
-      <aside id="ac-gn-searchview" class="ac-gn-searchview" role="search" data-analytics-region="search">
-        <div class="ac-gn-searchview-content">
-          <form id="ac-gn-searchform" class="ac-gn-searchform" action="/us/search" method="get">
-            <div class="ac-gn-searchform-wrapper">
-              <input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" name="" placeholder="Search apple.com" data-placeholder-long="Search for Products, Stores, and Help" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false"
-              />
-              <input id="ac-gn-searchform-src" type="hidden" name="src" value="globalnav" />
-              <button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled aria-label="Submit"></button>
-              <button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled aria-label="Clear Search"></button>
-            </div>
-          </form>
-          <aside id="ac-gn-searchresults" class="ac-gn-searchresults" data-string-quicklinks="Quick Links" data-string-suggestions="Suggested Searches" data-string-noresults="Hit enter to search."></aside>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list nav-list-mobile">
+                    <li class="nav-item">
+                        <div class="mobile-menu">
+                            <span class="line line-top"></span>
+                            <span class="line line-bottom"></span>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link nav-link-apple">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-link-bag">
+                        </a>
+                    </li>
+                </ul>
+                <!-- nav list and nav list mobile  -->
+                <ul class="nav-list nav-list-larger">
+                    <li class="nav-item nav-item-hidden">
+                        <a href="index.html" class="nav-link nav-link-apple">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#iMac" class="nav-link">Mac
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">iPad
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#iphone12pro" class="nav-link">iPhone
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#watch" class="nav-link">Watch
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">TV
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Music
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Support
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-link-search">
+                        </a>
+                    </li>
+                    <li class="nav-item nav-item-hidden">
+                        <a href="#" class="nav-link nav-link-bag">
+                        </a>
+                    </li>
+                </ul>
+                <!-- nav list nav list larger  -->
+            </nav>
         </div>
-        <button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Close Search"> <span class="ac-gn-searchview-close-wrapper">
-              <span class="ac-gn-searchview-close-left"></span> <span class="ac-gn-searchview-close-right"></span> </span>
-        </button>
-      </aside>
-      <aside class="ac-gn-bagview" data-analytics-region="bag">
-        <div class="ac-gn-bagview-scrim"> <span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span> </div>
-        <div class="ac-gn-bagview-content" id="ac-gn-bagview-content"> </div>
-      </aside>
-    </div>
-  </nav>
-  <div id="ac-gn-curtain" class="ac-gn-curtain"></div>
-  <div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
-  
-  <script type="text/javascript" src="/ac/globalnav/2.0/en_US/scripts/ac-globalnav.built.js"></script>
-  
-  <script src="https://images.apple.com/metrics/ac-analytics/1.0/scripts/ac-analytics.js"></script>
-  <script id="analytics-page-view-data" type="application/json">{"prop2":"www.{COUNTRY_CODE}.mac.hardware"}</script>
-  <script src="https://images.apple.com/v/macbook-pro/g/scripts/auto-init-analytics.js" type="text/javascript" charset="utf-8"></script>
-  
-  
-  <input type="checkbox" id="ac-ln-menustate" class="ac-ln-menustate" />
-  <nav id="ac-localnav" class="no-js" lang="en-US" role="navigation" data-analytics-region="local nav" data-sticky>
-    <div class="ac-ln-wrapper">
-      <div class="ac-ln-background"></div>
-      <div class="ac-ln-content">
-        <h2 class="ac-ln-title">
-          <a href="/macbook-pro/" data-analytics-title="product index">MacBook Pro</a>
-        </h2>
-  
-        <div class="ac-ln-menu">
-          <a href="#ac-ln-menustate" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-open" id="ac-ln-menustate-open">
-            <span class="ac-ln-menucta-anchor-label">Open Menu</span>
-          </a>
-          <a href="#" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-close" id="ac-ln-menustate-close">
-            <span class="ac-ln-menucta-anchor-label">Close Menu</span>
-          </a>
-  
-          <div class="ac-ln-menu-tray">
-            <ul class="ac-ln-menu-items">
-              <li class="ac-ln-menu-item">
-  
-                <a href="/macbook-pro/features-retina/" class="ac-ln-menu-link" data-analytics-title="features">Features</a>
-  
-              </li>
-              <li class="ac-ln-menu-item">
-  
-                <a href="/macbook-pro/design-retina/" class="ac-ln-menu-link" data-analytics-title="design">Design</a>
-  
-              </li>
-              <li class="ac-ln-menu-item">
-  
-                <a href="/macbook-pro/performance-retina/" class="ac-ln-menu-link" data-analytics-title="performance">Performance</a>
-  
-              </li>
-              <li class="ac-ln-menu-item">
-  
-                <a href="/macbook-pro/osx-retina/" class="ac-ln-menu-link" data-analytics-title="os x">OS X</a>
-  
-              </li>
-              <li class="ac-ln-menu-item">
-  
-                <a href="/macbook-pro/built-in-apps-retina/" class="ac-ln-menu-link" data-analytics-title="built-in apps">Built-in Apps</a>
-  
-              </li>
-              <li class="ac-ln-menu-item">
-  
-                <a href="/macbook-pro/specs-retina/" class="ac-ln-menu-link" data-analytics-title="tech specs">Tech Specs</a>
-  
-              </li>
-            </ul>
-          </div>
-  
-          <div class="ac-ln-actions">
-            <div class="ac-ln-action ac-ln-action-menucta" aria-hidden="true">
-              <label for="ac-ln-menustate" class="ac-ln-menucta">
-                <span class="ac-ln-menucta-chevron"></span>
-              </label>
+    </header>
+
+    <section class="hero imac" id="iMac">
+        <div class="container">
+            <div class="title title-dark">
+                <h2 class="title-heading">iMac</h2>
+                <h3 class="title-sub-heading">Say hello</h3>
+                <p class="title-price">Order 4.30 | Available second half of May</p>
             </div>
-            <div class="ac-ln-action ac-ln-action-button">
-              <a class="ac-ln-button" href="/us/shop/goto/macbookpro" data-analytics-title="buy macbook pro">Buy <span class="ac-ln-action-product">MacBook Pro</span></a>
+            <div class="cta">
+                <a href="#" class="cta-link">Learn More</a>
+                <a href="#" class="cta-link">Buy</a>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </nav>
-  </body>
-  
-  </html>
-</header>
-<script src="https://use.fontawesome.com/c118aa5ce8.js"></script>
-<div class="banner">
-</div>
-    <section class="welcome">
-      <h1>Shop for your favorite Apple products.</h1>
     </section>
-    
-    <section class="product-mac">
-      <div class="container">
-        <h2>Mac</h2>
-        <div class="grid">
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-air-segment?wid=800&hei=600&fmt=png-alpha&qlt=80&.v=1573580916082">
-            <div class="grid-detail">
-              <p>MacBook Air</p>
-              <p>From ฿35,000</p>
+
+    <section class="hero iphone-12-pro" id="iphone12pro">
+        <div class="container">
+            <div class="title">
+                <h2 class="title-heading">iPhone 12 Pro</h2>
+                <h3 class="title-sub-heading">It's a leap year</h3>
+                <p class="title-price">From $41.62/mo. for 24 mo. or $999 before trade‑in</p>
             </div>
-          </div>
-          
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/macbook-pro-segment-2019?wid=800&hei=600&fmt=png-alpha&qlt=80&.v=1573580916135">
-            <div class="grid-detail">
-              <p>MacBook Pro</p>
-              <p>From ฿42,900</p>
+            <div class="cta">
+                <a href="#" class="cta-link">Learn More</a>
+                <a href="#" class="cta-link">Buy</a>
             </div>
-          </div>
-          
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/imac-segment?wid=800&hei=600&fmt=png-alpha&qlt=80&.v=1570232081431">
-            <div class="grid-detail">
-              <p>iMac</p>
-              <p>From ฿37,900</p>
-            </div>
-          </div>
-          
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/imac-pro-segment?wid=800&hei=600&fmt=png-alpha&qlt=80&.v=1570231926191">
-            <div class="grid-detail">
-              <p>iMac Pro</p>
-              <p>From ฿172,900</p>
-            </div>
-          </div>
-          
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mac-pro-segment?wid=800&hei=600&fmt=png-alpha&qlt=80&.v=1524766968633">
-            <div class="grid-detail">
-              <p>Mac Pro</p>
-              <p>From ฿114,900</p>
-            </div>
-          </div>
-          
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mac-mini-segment?wid=800&hei=600&fmt=png-alpha&qlt=80&.v=1539466285370">
-            <div class="grid-detail">
-              <p>Mac mini</p>
-              <p>From ฿27,900</p>
-            </div>
-          </div> <!--end grid-product-->
-        </div> <!--end grid-->
-      </div> <!--end container-->
-    </section>
-    
-    
-    <section class="product-iphone">
-      <div class="container">
-        <h2>iPhone</h2>
-        <div class="grid">
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-11-pro-segment-201909?wid=800&hei=600&fmt=png-alpha&qlt=80&.v=1567201566801">
-            <div class="grid-detail">
-              <p>iPhone 11 Pro</p>
-              <p>From ฿35,900</p>
-            </div>
-          </div>
-          
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-11-segment-201909?wid=800&hei=600&fmt=png-alpha&qlt=80&.v=1567201566851">
-            <div class="grid-detail">
-              <p>iPhone 11</p>
-              <p>From ฿24,900</p>
-            </div>
-          </div>
-          
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-xr-segment?wid=800&hei=600&fmt=png-alpha&qlt=80&.v=1535393884526">
-            <div class="grid-detail">
-              <p>iPhone XR</p>
-              <p>From ฿21,900</p>
-            </div>
-          </div>
-          
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/segment-hero-iphone-8-201709?wid=800&hei=600&fmt=png-alpha&qlt=80&.v=1504891668190">
-            <div class="grid-detail">
-              <p>iPhone 8</p>
-              <p>From ฿15,900</p>
-            </div>
-          </div>
-        </div> <!--end grid-->
-      </div> <!--end container-->
-    </section>
-    
-    
-    
-    <section class="product-watch">
-      <div class="container">
-        <h2>Watch</h2>
-        <div class="grid">
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/apple-watch-series-5-segment-201909?wid=800&hei=600&fmt=png-alpha&qlt=80&.v=1567038391208">
-            <div class="grid-detail">
-              <p>Apple Watch Series 5</p>
-              <p>From ฿13,400</p>
-            </div>
-          </div>
-          
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/apple-watch-nike-segment-201909?wid=800&hei=600&fmt=png-alpha&qlt=80&.v=1567202843775">
-            <div class="grid-detail">
-              <p>Apple Watch Nike</p>
-              <p>From ฿13,400</p>
-            </div>
-          </div>
-          
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/apple-watch-hermes-segment-201909?wid=800&hei=600&fmt=png-alpha&qlt=80&.v=1568373934272">
-            <div class="grid-detail">
-              <p>Apple Watch Hermes</p>
-              <p>From ฿40,900</p>
-            </div>
-          </div>
-          
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/apple-watch-edition-segment-201909?wid=800&hei=600&fmt=png-alpha&qlt=80&.v=1568066151825">
-            <div class="grid-detail">
-              <p>Apple Watch Edition Series 5</p>
-              <p>From ฿25,400</p>
-            </div>
-          </div>
-          
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/apple-watch-series-3-segment-201909?wid=800&hei=600&fmt=png-alpha&qlt=80&.v=1567038391348">
-            <div class="grid-detail">
-              <p>Apple Watch Series 3</p>
-              <p>From ฿6,400</p>
-            </div>
-          </div><!--end grid-product-->
-        </div> <!--end grid-->
-      </div> <!--end container-->
-    </section>
-    
-    <section class="product-ipad">
-      <div class="container">
-        <h2>iPod and Apple TV</h2>
-        <div class="grid-full">
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/segment-hero-ipod-touch-201509?wid=400&hei=300&fmt=png-alpha&.v=1491260462715">
-            <div class="grid-detail">
-              <p>iPod Touch</p>
-              <p>Form ฿6,900</p>
-            </div>
-          </div>
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/segment-hero-apple-tv4k-201709?wid=400&hei=300&fmt=png-alpha&.v=1504891668090">
-            <div class="grid-detail">
-              <p>Apple TV 4K</p>
-              <p>Form ฿7,528</p>
-            </div>
-          </div>
-          <div class="grid-product">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/segment-hero-apple-tv4k-201709?wid=400&hei=300&fmt=png-alpha&.v=1504891668090">
-            <div class="grid-detail">
-              <p>Apple TV HD</p>
-              <p>Form ฿6,168</p>
-            </div>
-          </div>
-          <div class="grid-product-full">
-            <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/smb-accessories-201908?wid=1070&hei=480&fmt=png-alpha&.v=1563990869846">
-            <div class="grid-detail-sum">
-              <h2>Accessories</h2>
-              <p>get things done in style.</p>
-              <a href="#">shop now <i class="fas fa-chevron-right"></i></a>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
-    
-    <footer>
-      <div class="footer-main">
-        <div class="footer-detail">
-          <p>Prices are inclusive of VAT. Free delivery for all orders.</p>
-          <p>*Total order value must be less than 30,000 THB. Admin fee may be charged by bank/processing entity in addition to order value.</p>
-          <p>**For approved customers only. Subject to approval. For more information, see <a href="#">http://www.apple.com/th-en/help/payments.</a></p>
-        </div> <!-- end footer detail -->
-        
-        <div class="footer-welcome">
-          <i class="fab fa-apple"></i>
-          <i class="fas fa-chevron-right"></i>
-          <p>Welcome to the Apple Store</p>
-        </div> <!-- end footer-welcome -->
-        
-        <div class="footer-ul">
-          <ul>
-            <li><h4>Shop and Learn</h4></li>
-            <li><a href="#">Mac</a></li>
-            <li><a href="#">iPad</a></li>
-            <li><a href="#">iPhone</a></li>
-            <li><a href="#">Apple Watch</a></li>
-            <li><a href="#">TV</a></li>
-            <li><a href="#">Music</a></li>
-            <li><a href="#">iTunes</a></li>
-            <li><a href="#">iPod Touch</a></li>
-            <li><a href="#">Accessories</a></li>
-            <li><a href="#">Gift Cards</a></li>
-          </ul>
-          
-          <ul>
-            <li><h4>Apple Store</h4></li>
-            <li><a href="#">Apple Store App</a></li>
-            <li><a href="#">Financing</a></li>
-            <li><a href="#">Order Status</a></li>
-            <li><a href="#">Shopping Help</a></li>
-          </ul>
-          
-          <ul>
-            <li><h4>For Education</h4></li>
-            <li><a href="#">Apple and Education</a></li>
-            <li><a href="#">Shop for College</a></li>
-            <li id="mt"><h4>For Business</h4></li>
-            <li><a href="#">Apple and Business</a></li>
-            <li><a href="#">shop for Business</a></li>
-          </ul>
-          
-          <ul>
-            <li><h4>Account</h4></li>
-            <li><a href="#">Manage Your Apple ID</a></li>
-            <li><a href="#">Apple Store Account</a></li>
-            <li><a href="#">iClound.com</a></li>
-            <li id="mt"><h4>Apple Values</h4></li>
-            <li><a href="#">Accessibility</a></li>
-            <li><a href="#">Environment</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Supplier Responsibility</a></li>
-          </ul>
-          
-          <ul>
-            <li><h4>About Apple</h4></li>
-            <li><a href="#">Newsroom</a></li>
-            <li><a href="#">Investors</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Contact Apple</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-contact">
-          <p>More ways to shop: visit an <a href="#">Apple Store, </a>Call 001‑800‑65‑6957, or <a href="#">find a seller</a></p>
-        </div>
-        <div class="footer-copyright">
-          <p>Copyright © 2019 Apple Inc. All rights reserved.</p>
-          
-          <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <div class="vr"></div>
-            <li><a href="#">Terms of Use</a></li>
-            <div class="vr"></div>
-            <li><a href="#">Sales and Refunds</a></li>
-            <div class="vr"></div>
-            <li><a href="#">Legal</a></li>
-            <div class="vr"></div>
-            <li><a href="#">Sitemap</a></li>
-          </ul>
-          
-          <div class="footer-lang">
-            <div class="circle">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/1200px-Flag_of_Thailand.svg.png">
+
+    <section class="hero iphone-12">
+        <div class="container">
+            <div class="title title-dark">
+                <h2 class="title-heading">iPhone 12</h2>
+                <h3 class="title-sub-heading">Purple. Now in season</h3>
+                <p class="title-price">From $29.12/mo. for 24 mo. or $699 before trade‑in<br>
+                    Purple available 4.30
+
+                </p>
             </div>
-            <p>ไทย</p>
-            <div class="vr"></div>
-            <p>ภาษาไทย</p>
-          </div>
+            <div class="cta">
+                <a href="#" class="cta-link">Learn More</a>
+                <a href="#" class="cta-link">Buy</a>
+            </div>
         </div>
-        
-      </div>
-    </footer>
-  </body>
+    </section>
+
+    <section class="hero watch" id="watch">
+        <div class="container">
+            <div class="title title-dark">
+                <h2 class="title-heading-watch"></h2>
+                <h3 class="title-sub-heading">The future of health is on your wrist</h3>
+            </div>
+            <div class="cta">
+                <a href="#" class="cta-link">Learn More</a>
+                <a href="#" class="cta-link">Buy</a>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
 </html>
